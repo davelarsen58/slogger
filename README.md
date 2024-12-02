@@ -4,10 +4,8 @@ slogger is a multithreaded stream logger born from the need to correlate multipl
 
 The tool allows specifying a list of connections to establish, the name of the log file to use, and whether to add timestamps to each line of the log file.
 
-
-
 ## usage:
-```
+
 slogger host:serial:device host:ssh:username ...
 ```
 
